@@ -1,5 +1,4 @@
-# 如何解决新版本github copilot无法在旧的vscode上运行
-
+# 使用新版本VSCode Remote-SSH 连接旧版本Ubuntu电脑
 
 
 github copilot在今天 (2025.08.07) 早上更新之后似乎不再支持旧的vscode版本，更新vscode版本即可使用
@@ -160,5 +159,6 @@ patchelf --set-interpreter /glibc/2.35/amd64/lib/ld-linux-x86-64.so.2\
 
 
 运行后问题解决，可以连接到远程主机，并且在新的版本中运行github copilot：
+
 
 ![image-20250807212311306](imgs/image-20250807212311306.png)
